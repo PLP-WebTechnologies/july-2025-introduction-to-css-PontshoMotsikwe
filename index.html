@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the Ballroom</title>
+    <meta name="description" content="An HTML5 page about ballroom dancing" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to the Ballroom</h1>
+
+    <h2>About Ballroom Dancing</h2>
+    <p>
+      Ballroom dancing is a graceful and elegant form of dance that combines
+      rhythm, movement, and connection between partners. It is enjoyed socially
+      and competitively around the world.
+    </p>
+
+    <h2>Popular Ballroom Dances</h2>
+    <p>Here are some well-known ballroom dances:</p>
+    <ul>
+      <li>Waltz</li>
+      <li>Tango</li>
+      <li>Foxtrot</li>
+      <li>Quickstep</li>
+      <li>Viennese Waltz</li>
+    </ul>
+
+    <h2>Steps to Start Ballroom Dancing</h2>
+    <p>If you're new to ballroom, here's how to begin:</p>
+    <ol>
+      <li>Find a local dance studio or class</li>
+      <li>Choose a style you would like to learn</li>
+      <li>Practice basic steps with a partner</li>
+      <li>Listen to the music and follow the rhythm</li>
+      <li>Keep practicing and have fun!</li>
+    </ol>
+
+    <h2>Ballroom Dancing in Action</h2>
+    <p>Here is an image that captures the beauty of ballroom dancing:</p>
+    <img
+      src="ballroom.jpeg"
+      alt="A couple gracefully performing a ballroom dance"
+      width="300"
+      height="300"
+    />
+
+    <h2>Introduction Video</h2>
+    <video width="400" height="300" controls>
+      <source src="bdancing.mp4" type="video/mp4" />
+      Your browser does not support the video.
+    </video>
+
+    <h2>Ballroom Event Pricing</h2>
+    <table border="1">
+      <tr>
+        <th>Event</th>
+        <th>Price</th>
+        <th>Features</th>
+      </tr>
+      <tr>
+        <td>Beginner Workshop</td>
+        <td>R450</td>
+        <td>Basic steps and partner practice</td>
+      </tr>
+      <tr>
+        <td>Advanced Workshop</td>
+        <td>R900</td>
+        <td>Complex routines and performance tips</td>
+      </tr>
+    </table>
+
+    <h2>Sign Up for Dance Classes</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Full name"
+        required
+      /><br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="example@email.com"
+        required
+        autocomplete="on"
+      /><br /><br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter password"
+        required
+      /><br /><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">Select country</option>
+        <option value="za">South Africa</option>
+        <option value="us">Nigeria</option>
+        <option value="uk">Kenya</option></select
+      ><br /><br />
+
+      <label for="newsletter">Subscribe to newsletter:</label>
+      <input
+        type="checkbox"
+        id="newsletter"
+        name="newsletter"
+        checked
+      /><br /><br />
+
+      <label for="bio">Short Bio:</label>
+      <textarea
+        id="bio"
+        name="bio"
+        placeholder="Tell us about yourself"
+        rows="4"
+        cols="50"
+      ></textarea
+      ><br /><br />
+
+      <input type="submit" value="Sign Up" />
+    </form>
+
+    <p class="footer-text">&copy; 2025 Welcome to the Ballroom</p>
+    <p>&copy; 2025 Welcome to the Ballroom</p>
+  </body>
+</html>
